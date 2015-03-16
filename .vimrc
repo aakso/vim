@@ -2,10 +2,12 @@
 call pathogen#infect()
 
 " Colors
-colorscheme koehler
 set background=dark
+syntax enable
+set t_Co=256
+colorscheme solarized
 " Syntax hilighting
-highlight StatusLine ctermfg=blue ctermbg=yellow
+"highlight StatusLine ctermfg=blue ctermbg=yellow
 
 set nocompatible
 set smarttab
