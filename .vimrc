@@ -5,7 +5,7 @@ call pathogen#infect()
 set background=dark
 syntax enable
 set t_Co=256
-colorscheme solarized
+colorscheme gruvbox
 " Syntax hilighting
 "highlight StatusLine ctermfg=blue ctermbg=yellow
 
