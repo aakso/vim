@@ -45,4 +45,4 @@ autocmd Filetype go setlocal tabstop=4 shiftwidth=4
 autocmd Filetype go let g:go_fmt_command = "goimports"
 
 " YAML
-autocmd FileType yaml set indentkeys-=<:>
+autocmd FileType yaml set ft=ansible "override filetype to use ansible plugin
