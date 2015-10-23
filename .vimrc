@@ -43,3 +43,6 @@ autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4 tw=79 formatop
 " GO stuff
 autocmd Filetype go setlocal tabstop=4 shiftwidth=4
 autocmd Filetype go let g:go_fmt_command = "goimports"
+
+" YAML
+autocmd FileType yaml set indentkeys-=<:>
