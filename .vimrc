@@ -37,6 +37,7 @@ set listchars=tab:\|\
 
 " Expandtab for ruby
 autocmd Filetype ruby setlocal expandtab tabstop=2 shiftwidth=2 tw=79 formatoptions=tcro
+autocmd Filetype eruby setlocal expandtab tabstop=2 shiftwidth=2
 autocmd Filetype javascript setlocal expandtab tabstop=2 shiftwidth=2 tw=79 formatoptions=tcro
 autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4 tw=79 formatoptions=tcro
 
