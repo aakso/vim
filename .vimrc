@@ -35,6 +35,9 @@ set tabstop=2
 set list
 set listchars=tab:\|\ 
 
+" Copy to X Window Clipboard
+set clipboard=unnamedplus
+
 " Expandtab for ruby
 autocmd Filetype ruby setlocal expandtab tabstop=2 shiftwidth=2 tw=79 formatoptions=tcro
 autocmd Filetype eruby setlocal expandtab tabstop=2 shiftwidth=2
@@ -47,3 +50,7 @@ autocmd Filetype go let g:go_fmt_command = "goimports"
 
 " YAML
 autocmd FileType yaml set ft=ansible "override filetype to use ansible plugin
+autocmd FileType ansible set indentkeys-=- "disable stupid indentation with dash
+
+" RST
+autocmd FileType rst set tw=79 formatoptions=tcro
