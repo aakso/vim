@@ -54,3 +54,4 @@ autocmd FileType ansible set indentkeys-=- "disable stupid indentation with dash
 
 " RST
 autocmd FileType rst set tw=79 formatoptions=tcro
+let g:riv_disable_folding=1
